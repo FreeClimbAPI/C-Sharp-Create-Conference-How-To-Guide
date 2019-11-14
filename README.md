@@ -1,6 +1,6 @@
 # C# - Create Conference Tutorial
 
-This project serves as a guide to help you build an application with FreeClimb. Specifically, the project will:
+This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/create-a-conference-and-add-participants-1#section-c). Specifically, the project will:
 
 - Accept incoming calls
 - Receive digits from the caller
@@ -11,7 +11,7 @@ This application will receive calls and have users enter the conference code of 
 
 ## Setting up your new app within your FreeClimb account
 
-To get started using a FreeClimb account, follow the instructions [here](https://persephony-docs.readme.io/docs/getting-started-with-persephony).
+To get started using a FreeClimb account, follow the instructions [here](https://docs.freeclimb.com/docs/getting-started-with-freeclimb).
 
 ## Setting up the Tutorial
 
@@ -25,8 +25,8 @@ To get started using a FreeClimb account, follow the instructions [here](https:/
 
    | ENV VARIABLE            | DESCRIPTION                                                                                                                                                                             |
    | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | ACCOUNT_ID              | Account ID which can be found under [API Keys](https://www.persephony.com/dashboard/portal/account/authentication) in Dashboard                                                         |
-   | AUTH_TOKEN              | Authentication Token which can be found under [API Keys](https://www.persephony.com/dashboard/portal/account/authentication) in Dashboard                                               |
+   | ACCOUNT_ID              | Account ID which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard                                                         |
+   | AUTH_TOKEN              | Authentication Token which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard                                               |
    | HOST | The host url where your application is hosted (e.g. yourHostedApp.com) |
 
 ## Runnning the Tutorial
