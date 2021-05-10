@@ -129,8 +129,8 @@ namespace CreateAndAddConference.Controllers {
     private void terminateConference (string conferenceId) {
       // your credentials information filled in here
       string acctId = getAcctId ();
-      string acctToken = getAuthToken ();
-      FreeClimbClient client = new FreeClimbClient (acctId, acctToken);
+      string apiKey = getApiKey ();
+      FreeClimbClient client = new FreeClimbClient (acctId, apiKey);
       // terminating a conference is done by changing the status to Terminated
       ConferenceOptions options = new ConferenceOptions ();
       options.setStatus (com.freeclimb.EConferenceStatus.Terminated);
@@ -141,8 +141,8 @@ namespace CreateAndAddConference.Controllers {
       return System.Environment.GetEnvironmentVariable("ACCOUNT_ID");
     }
 
-    private string getAuthToken () {
-      return System.Environment.GetEnvironmentVariable("AUTH_TOKEN");
+    private string getApiKey () {
+      return System.Environment.GetEnvironmentVariable("API_KEY");
     }
 
     private string getAppUrl () {
